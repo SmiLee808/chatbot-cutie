@@ -1,0 +1,79 @@
+body {
+	background-color: beige;
+}
+
+#main {
+	width: 500px;
+	height:600px;
+	border-radius: 25px;
+	border: 5px solid black;
+	padding: 25px;
+	margin: 25px;
+	background-color: lavender;
+}
+
+/*in css the dot is to call the class. the # is to call an id.
+*/
+
+
+#header {
+	width: 450px;
+	height:100px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+	border: 2px solid black;
+	background-color: hotpink;
+}
+
+#headerText {
+	text-align: center;
+	vertical-align: auto;
+	text-shadow: 3px 2px lavender;
+}
+
+.genProp {
+	width: 450px;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+	border: 2px solid black;
+}
+
+#pictureSquare {
+	margin-top: 3%;
+	width: 75px;
+	margin-left: 20px;
+	height: 75px;
+	border-radius: 5px;
+	border: 2px solid black;
+}
+
+#genie {
+	width: 75px;
+	height:75px;
+
+}
+
+#abtGen{
+	height:100px;
+	background-color: red;
+}
+
+#question{
+	height:100px;
+	background-color: green;
+}
+
+#answer{
+	height:200px;
+	background-color: yellow;
+}
+
+#created{
+	height:50px;
+	background-color: blue;
+}
+
+
