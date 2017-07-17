@@ -32,13 +32,36 @@ body {
 	text-shadow: 3px 2px lavender;
 }
 
-.genProp {
+
+.genProp2 {
 	width: 450px;
 	margin-top: 2%;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 25px;
 	border: 2px solid black;
+}
+
+.genProp3 {
+	width: 450px;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+	border: 2px solid black;
+}
+
+#abtGen{
+	height:100px;
+	background-color: red;
+	width: 450px;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+	border: 2px solid black;
+	display:flex;
+	justify-content: space-between;
 }
 
 #pictureSquare {
@@ -53,22 +76,47 @@ body {
 #genie {
 	width: 75px;
 	height:75px;
-
 }
 
-#abtGen{
-	height:100px;
-	background-color: red;
+#genieGreeting {
+	padding-left: 2rem;
+	padding-top: 1rem;
 }
 
 #question{
 	height:100px;
 	background-color: green;
+	width: 450px;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+	border: 2px solid black;
+	display:flex;
+	justify-content: flex-end;
+
 }
 
+#pictureSquareUser {
+	width: 75px;
+	height: 75px;
+	border-radius: 5px;
+	border: 2px solid black;
+	padding-left: 2rem;
+	padding-top: 1rem;
+
+
+}
+
+#user {	
+	width: 75px;
+	height:75px;
+}
+	
 #answer{
 	height:200px;
 	background-color: yellow;
+
 }
 
 #created{
